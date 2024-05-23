@@ -1,0 +1,58 @@
+ .frame-2 {
+     background-color: #282828;
+     border-radius: 20px;
+     height: 212px;
+     left: 60px;
+     overflow: hidden;
+     position: absolute;
+     top: 742px;
+     width: 1320px;
+ }
+
+ .frame-3 {
+     align-items: center;
+     display: inline-flex;
+     gap: 126px;
+     justify-content: center;
+     left: 38px;
+     position: absolute;
+     top: 47px;
+ }
+
+ .hodu-light-logo {
+     height: 77px;
+     object-fit: cover;
+     position: relative;
+     width: 240.62px;
+ }
+
+ .PC-w {
+     height: 140.15px;
+     position: relative;
+     width: 192px;
+ }
+
+ .img-3 {
+     height: 51.35px;
+     position: relative;
+     width: 183.38px;
+ }
+
+ .iplabs {
+     height: 109.46px;
+     position: relative;
+     width: 251px;
+ }
+
+ .text-wrapper-4 {
+     color: #ffffff;
+     font-family: var(--h5-font-family);
+     font-size: var(--h5-font-size);
+     font-style: var(--h5-font-style);
+     font-weight: var(--h5-font-weight);
+     left: 603px;
+     letter-spacing: var(--h5-letter-spacing);
+     line-height: var(--h5-line-height);
+     position: absolute;
+     top: 23px;
+ }

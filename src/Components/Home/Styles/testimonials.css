@@ -1,0 +1,236 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.pulsing {
+  animation: pulse 0.3s linear;
+}
+
+
+/* Main testimonials container */
+.testmonials {
+  align-items: center;
+  background-color: #282828;
+  border-radius: 23px;
+  /* display: flex;
+  flex-direction: column;
+  gap: 10px; */
+  justify-content: center;
+  left: 60px;
+  padding: 31px 37px;
+  /* position: absolute; */
+  position: relative;
+  top: 3141px;
+  width: 1320px;
+}
+
+/* Frame 19 */
+.frame-19 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 100px;
+  position: relative;
+}
+
+/* Image wrapper */
+.unsplash-ivm-wrapper {
+  background-color: #464646;
+  border-radius: 20px;
+  height: 352px;
+  overflow: hidden;
+  position: relative;
+  width: 319px;
+}
+
+.unsplash-ivm {
+  height: 352px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 319px;
+}
+
+/* Frame 20 */
+.frame-20 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 27px;
+  position: relative;
+}
+
+/* Frame 21 */
+.frame-21 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 34px;
+  position: relative;
+}
+
+/* Frame 22 */
+.frame-22 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 7px;
+  position: relative;
+}
+
+/* Text wrappers */
+.text-wrapper-20 {
+  color: #ffffff;
+  font-family: var(--h4-font-family);
+  font-size: var(--h4-font-size);
+  font-style: var(--h4-font-style);
+  font-weight: var(--h4-font-weight);
+  letter-spacing: var(--h4-letter-spacing);
+  line-height: var(--h4-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-wrapper-21 {
+  color: #9e9e9e;
+  font-family: var(--TS-m-font-family);
+  font-size: var(--TS-m-font-size);
+  font-style: var(--TS-m-font-style);
+  font-weight: var(--TS-m-font-weight);
+  letter-spacing: var(--TS-m-letter-spacing);
+  line-height: var(--TS-m-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-wrapper-22 {
+  color: #ffffff;
+  font-family: var(--h5-font-family);
+  font-size: var(--h5-font-size);
+  font-style: var(--h5-font-style);
+  font-weight: var(--h5-font-weight);
+  height: 145px;
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+  position: relative;
+  width: 659px;
+}
+
+/* Buttons */
+.buttons {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.buttons-2-container {
+  z-index: 3;
+  position: absolute;
+  top: 296px;
+  left: 1102px;
+}
+
+.buttons-3-container {
+  position: absolute;
+  bottom: 7px;
+  left: 1198px;
+}
+
+.button-2 {
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 28px;
+  height: 56px;
+  position: relative;
+  transform: rotate(180deg);
+  width: 56px;
+  top: calc(50% - 28px);
+  /* Center the button vertically */
+  left: 15px;
+  /* Adjust the left position */
+}
+
+.button-3 {
+  background-color: #ffffff;
+  border-radius: 28px;
+  height: 56px;
+  position: relative;
+  width: 56px;
+  top: calc(50% - 28px);
+  /* Center the button vertically */
+  right: 15px;
+  /* Adjust the right position */
+}
+
+/* SVG Icons */
+.huge-icon-2 {
+  height: 25px;
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  transform: rotate(-180deg);
+  width: 25px;
+}
+
+.huge-icon-3 {
+  height: 25px;
+  left: 16px;
+  position: absolute;
+  top: 16px;
+  width: 25px;
+  transform: rotate(-180deg);
+}
+
+/* Carousel specific styling */
+.carousel .control-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  z-index: 2;
+  top: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.carousel .control-prev.control-arrow {
+  left: 15px;
+}
+
+.carousel .control-next.control-arrow {
+  right: 15px;
+}
+
+.carousel .carousel-status {
+  display: none;
+}
+
+.carousel .carousel-indicators {
+  display: none;
+}
+

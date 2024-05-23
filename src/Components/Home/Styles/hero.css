@@ -1,0 +1,175 @@
+/* Hero section */
+.hero {
+    height: 581px;
+    left: 57px;
+    position: absolute;
+    top: 126px;
+    width: 1362px;
+}
+
+/* Overlapping group */
+.overlap-group-2 {
+    height: 581px;
+    position: relative;
+}
+
+/* Frame styles */
+.frame-4 {
+    height: 348px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1362px;
+}
+
+/* Hero content */
+.hero-content {
+    align-items: flex-start;
+    display: inline-flex;
+    left: 40px;
+    position: absolute;
+    top: 37px;
+}
+
+.frame-5 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 23px;
+    position: relative;
+}
+
+/* Text wrapper */
+.div-wrapper {
+    align-items: center;
+    background-color: #f7f7f5;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+}
+
+.text-wrapper-5 {
+    color: #000000;
+    font-family: "Urbanist", Helvetica;
+    font-size: 73px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 87.6px;
+    margin-top: -1px;
+    position: relative;
+    width: 682px;
+}
+
+.frame-6 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 21px;
+    padding: 0px 0px 0px 24px;
+    position: relative;
+}
+
+.text-wrapper-6 {
+    color: #4c4c4c;
+    font-family: var(--TS-l-font-family);
+    font-size: var(--TS-l-font-size);
+    font-style: var(--TS-l-font-style);
+    font-weight: var(--TS-l-font-weight);
+    letter-spacing: var(--TS-l-letter-spacing);
+    line-height: var(--TS-l-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: 585px;
+}
+
+.frame-7 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 9px;
+    position: relative;
+}
+
+.frame-8 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 138px;
+    position: relative;
+}
+
+.text-wrapper-7 {
+    color: var(--primary);
+    font-family: "Urbanist", Helvetica;
+    font-size: 76px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 91.2px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.text-wrapper-7.fade-out {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.text-wrapper-7.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.barLine {
+    width: 2px;
+    height: 94px;
+    position: absolute;
+    left: 182px;
+    top: 6px;
+    background: #3E3E3E;
+    opacity: 0;
+    transform: scaleY(0);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.barLine.show {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.frame-9 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 72px;
+    padding: 0px 0px 0px 31px;
+    position: relative;
+}
+
+.text-wrapper-8 {
+    color: #000000;
+    font-family: var(--TS-l-font-family);
+    font-size: var(--TS-l-font-size);
+    font-style: var(--TS-l-font-style);
+    font-weight: var(--TS-l-font-weight);
+    letter-spacing: var(--TS-l-letter-spacing);
+    line-height: var(--TS-l-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.mask-group {
+    height: 544px;
+    position: relative;
+    width: 553px;
+}

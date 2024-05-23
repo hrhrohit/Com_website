@@ -1,0 +1,196 @@
+.text-input {
+    background: none;
+    border: none;
+    color: #4c4c4c80;
+    font-family: var(--TS-r-font-family);
+    font-size: var(--TS-r-font-size);
+    font-style: var(--TS-r-font-style);
+    font-weight: var(--TS-r-font-weight);
+    letter-spacing: var(--TS-r-letter-spacing);
+    line-height: var(--TS-r-line-height);
+    width: 100%;
+    outline: none;
+}
+
+.message-input {
+    width: 100%;
+    height: auto;
+    /* Adjust height based on content */
+    resize: none;
+    /* Prevent resizing */
+}
+
+
+
+.frame-27 {
+    align-items: center;
+    background-color: #000000;
+    border-radius: 35px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 95px;
+    padding: 16px 20px;
+    position: absolute;
+    top: 4117px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.frame-27 .vector-4 {
+    stroke: white;
+}
+.frame-27:hover {
+    background-color: #f7f7f5;; /* Change background color on hover */
+    border:  #000000; 
+}
+
+.frame-27:hover .text-wrapper-26 {
+    color: #000000; /* Change text color on hover */
+}
+
+.frame-27:hover .vector-4 {
+    stroke: #000000; /* Change SVG color on hover */
+    fill: #000000;
+}
+
+.text-wrapper-26 {
+    color: #ffffff;
+    font-family: var(--h5-font-family);
+    font-size: var(--h5-font-size);
+    font-style: var(--h5-font-style);
+    font-weight: var(--h5-font-weight);
+    letter-spacing: var(--h5-letter-spacing);
+    line-height: var(--h5-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.vector-4 {
+
+}
+
+.frame-23 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 68px;
+    left: 98px;
+    position: absolute;
+    top: 3677px;
+}
+
+.have-another {
+    color: #000000;
+    font-family: var(--h3-font-family);
+    font-size: var(--h3-font-size);
+    font-style: var(--h3-font-style);
+    font-weight: var(--h3-font-weight);
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.frame-24 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 42px;
+    position: relative;
+    width: 982px;
+}
+
+.frame-25 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 60px;
+    position: relative;
+}
+
+.div-4 {
+    color: transparent;
+    font-family: var(--h5-font-family);
+    font-size: var(--h5-font-size);
+    font-style: var(--h5-font-style);
+    font-weight: var(--h5-font-weight);
+    letter-spacing: var(--h5-letter-spacing);
+    line-height: var(--h5-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.text-wrapper-23 {
+    color: #4c4c4c;
+    font-family: var(--h5-font-family);
+    font-size: var(--h5-font-size);
+    font-style: var(--h5-font-style);
+    font-weight: var(--h5-font-weight);
+    letter-spacing: var(--h5-letter-spacing);
+    line-height: var(--h5-line-height);
+}
+
+.text-wrapper-24 {
+    color: #ff4d4d;
+    font-family: var(--h5-font-family);
+    font-size: var(--h5-font-size);
+    font-style: var(--h5-font-style);
+    font-weight: var(--h5-font-weight);
+    letter-spacing: var(--h5-letter-spacing);
+    line-height: var(--h5-line-height);
+}
+
+.frame-26 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+}
+
+.text-wrapper-25 {
+    color: #4c4c4c80;
+    font-family: var(--TS-r-font-family);
+    font-size: var(--TS-r-font-size);
+    font-style: var(--TS-r-font-style);
+    font-weight: var(--TS-r-font-weight);
+    letter-spacing: var(--TS-r-letter-spacing);
+    line-height: var(--TS-r-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.line-2 {
+    height: 9px;
+    margin-bottom: -8px;
+    margin-left: -4px;
+    margin-right: -4px;
+    object-fit: cover;
+    position: relative;
+    width: 468px;
+}
+
+.line-3 {
+    height: 1px;
+    object-fit: cover;
+    position: relative;
+    width: 460px;
+}
+
+.line-4 {
+    height: 9px;
+    margin-bottom: -8px;
+    margin-left: -4px;
+    margin-right: -4px;
+    object-fit: cover;
+    position: relative;
+    width: 990px;
+}

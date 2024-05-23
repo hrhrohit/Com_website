@@ -1,0 +1,74 @@
+.vector-2 path {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: none;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.vector-2.animate path {
+    animation: draw 2s forwards 0.5s; /* Add a 0.5s delay before the animation starts */
+}
+
+
+/* Existing styles */
+.frame-10 {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 15px;
+    left: 406px;
+    position: absolute;
+    top: 1685px;
+}
+
+.group {
+    height: 52px;
+    position: relative;
+    width: 267px;
+}
+
+.overlap-group-3 {
+    height: 59px;
+    position: relative;
+    width: 275px;
+}
+
+.vector-2 {
+    height: 35px;
+    left: 84px;
+    position: absolute;
+    top: 23px;
+    width: 190px;
+}
+
+.text-wrapper-9 {
+    color: #000000;
+    font-family: var(--h3-font-family);
+    font-size: var(--h3-font-size);
+    font-style: var(--h3-font-style);
+    font-weight: var(--h3-font-weight);
+    left: 0;
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    position: absolute;
+    top: 0;
+    width: 262px;
+}
+
+.text-wrapper-10 {
+    color: #4c4c4c;
+    font-family: var(--h5-font-family);
+    font-size: var(--h5-font-size);
+    font-style: var(--h5-font-style);
+    font-weight: var(--h5-font-weight);
+    letter-spacing: var(--h5-letter-spacing);
+    line-height: var(--h5-line-height);
+    position: relative;
+    text-align: center;
+    width: 578px;
+}

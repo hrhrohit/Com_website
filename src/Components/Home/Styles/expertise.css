@@ -1,0 +1,199 @@
+.vector path {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: none;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.vector.animate path {
+    animation: draw 2s forwards 0.5s; /* Add a 0.5s delay before the animation starts */
+}
+
+/* Existing styles */
+.overlap {
+    height: 547px;
+    left: 0;
+    position: absolute;
+    top: 2542px;
+    width: 1440px;
+}
+
+.overlap-group {
+    height: 522px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+}
+
+.element {
+    height: 348px;
+    left: 1132px;
+    position: absolute;
+    top: 0;
+    width: 308px;
+}
+
+.img {
+    height: 348px;
+    left: 0;
+    position: absolute;
+    top: 174px;
+    width: 294px;
+}
+
+.card {
+    align-items: flex-start;
+    display: flex;
+    gap: 30px;
+    left: 135px;
+    position: absolute;
+    top: 125px;
+    width: 1170px;
+}
+
+.div-2 {
+    align-items: flex-start;
+    background-color: var(--white-ffffff);
+    border-radius: 24px;
+    box-shadow: 10px 20px 66px #0000000f;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 24px;
+    justify-content: center;
+    padding: 24px;
+    position: relative;
+}
+
+.img-2 {
+    height: 72px;
+    position: relative;
+    width: 72px;
+}
+
+.div-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.text-wrapper {
+    color: #000000;
+    font-family: var(--h5-font-family);
+    font-size: var(--h5-font-size);
+    font-style: var(--h5-font-style);
+    font-weight: var(--h5-font-weight);
+    letter-spacing: var(--h5-letter-spacing);
+    line-height: var(--h5-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.p {
+    color: #4c4c4c;
+    font-family: var(--TS-r-font-family);
+    font-size: var(--TS-r-font-size);
+    font-style: var(--TS-r-font-style);
+    font-weight: var(--TS-r-font-weight);
+    letter-spacing: var(--TS-r-letter-spacing);
+    line-height: var(--TS-r-line-height);
+    margin-right: -11px;
+    position: relative;
+    width: 333px;
+}
+
+.text-wrapper-2 {
+    align-self: stretch;
+    color: #4c4c4c;
+    font-family: var(--TS-r-font-family);
+    font-size: var(--TS-r-font-size);
+    font-style: var(--TS-r-font-style);
+    font-weight: var(--TS-r-font-weight);
+    letter-spacing: var(--TS-r-letter-spacing);
+    line-height: var(--TS-r-line-height);
+    position: relative;
+}
+
+.body-text {
+    color: #4c4c4c;
+    font-family: var(--TS-m-font-family);
+    font-size: var(--TS-m-font-size);
+    font-style: var(--TS-m-font-style);
+    font-weight: var(--TS-m-font-weight);
+    height: 72px;
+    left: 336px;
+    letter-spacing: var(--TS-m-letter-spacing);
+    line-height: var(--TS-m-line-height);
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    width: 767px;
+}
+
+.frame {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 10px;
+    left: 460px;
+    position: absolute;
+    top: 443px;
+}
+
+.vector {
+    height: 39px;
+    left: 177px;
+    position: absolute;
+    top: 68px;
+    width: 166px;
+}
+
+.what-our-client-says {
+    color: transparent;
+    font-family: var(--h3-font-family);
+    font-size: var(--h3-font-size);
+    font-style: var(--h3-font-style);
+    font-weight: var(--h3-font-weight);
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 519px;
+}
+
+.span {
+    color: #ff4d4d;
+    font-family: var(--h3-font-family);
+    font-size: var(--h3-font-size);
+    font-style: var(--h3-font-style);
+    font-weight: var(--h3-font-weight);
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+}
+
+.text-wrapper-19 {
+    color: #000000;
+    font-family: var(--h3-font-family);
+    font-size: var(--h3-font-size);
+    font-style: var(--h3-font-style);
+    font-weight: var(--h3-font-weight);
+    left: 571px;
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    position: absolute;
+    top: 2477px;
+}
