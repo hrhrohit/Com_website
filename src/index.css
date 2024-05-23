@@ -6,11 +6,7 @@ body{
   user-select: none;
 }
 
-@layer components {
-    .all-\[unset\] {
-      all: unset;
-    }
-  }
+
   
   :root {
     --black: rgba(0, 0, 0, 1);
