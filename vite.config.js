@@ -1,8 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: "Com_website",
+  base: '/repository-name/',  // replace with your repository name
   plugins: [react()],
+  build: {
+    outDir: 'docs',  // GitHub Pages default directory
+  },
 })
