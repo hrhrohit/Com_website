@@ -23,7 +23,7 @@ const Goals = () => {
                 <img
                     className="mask-group-2"
                     alt="Mask group"
-                    src="/img/mask-group-1.png"
+                    src="Com_website/img/mask-group-1.png"
                     data-aos="fade-up"
                     data-aos-delay="300"
                     data-aos-anchor-placement="top-bottom"

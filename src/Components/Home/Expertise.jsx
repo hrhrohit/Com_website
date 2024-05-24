@@ -42,11 +42,11 @@ const Expertise = () => {
                     and efficient billing solutions, making us the top choice for your business.
                 </p>
                 <div className="overlap-group">
-                    <img className="element" alt="Element" src="/img/26432-1.svg" />
-                    <img className="img" alt="Element" src="/img/26432-3.svg" />
+                    <img className="element" alt="Element" src="Com_website/img/26432-1.svg" />
+                    <img className="img" alt="Element" src="Com_website/img/26432-3.svg" />
                     <div className="card">
                         <div className="div-2">
-                            <img className="img-2" alt="Unparalleled" src="/img/unparalleled-expertise.svg" />
+                            <img className="img-2" alt="Unparalleled" src="Com_website/img/unparalleled-expertise.svg" />
                             <div className="div-3">
                                 <div className="text-wrapper">Unparalleled Expertise</div>
                                 <p className="p">
@@ -55,14 +55,14 @@ const Expertise = () => {
                             </div>
                         </div>
                         <div className="div-2">
-                            <img className="img-2" alt="Icon" src="/img/icon.svg" />
+                            <img className="img-2" alt="Icon" src="Com_website/img/icon.svg" />
                             <div className="div-3">
                                 <div className="text-wrapper">Reliable and Timely Service</div>
                                 <p className="text-wrapper-2">We value your time and understand the urgency of problems.</p>
                             </div>
                         </div>
                         <div className="div-2">
-                            <img className="img-2" alt="Satisfaction" src="/img/satisfaction-guaranteed-text.svg" />
+                            <img className="img-2" alt="Satisfaction" src="Com_website/img/satisfaction-guaranteed-text.svg" />
                             <div className="div-3">
                                 <div className="text-wrapper">Satisfaction guaranteed</div>
                                 <p className="text-wrapper-2">Customer satisfaction is at the core of everything we do.</p>

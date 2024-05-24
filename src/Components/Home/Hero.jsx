@@ -49,7 +49,7 @@ const Hero = () => {
     <>
       <div className="hero">
         <div className="overlap-group-2">
-          <img className="frame-4" alt="Frame" src="com/img/frame-50.svg" />
+          <img className="frame-4" alt="Frame" src="Com_website/img/frame-50.svg" />
           <div className="hero-content">
             <div className="frame-5">
               <div className="div-wrapper">
@@ -75,7 +75,7 @@ const Hero = () => {
                 </div>
               </div>
               </div>
-            <img className="mask-group" alt="Mask group" src="com/img/mask-group.png" />
+            <img className="mask-group" alt="Mask group" src="Com_website/img/mask-group.png" />
           </div>
         </div>
       </div>
