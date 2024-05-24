@@ -53,7 +53,7 @@ const Hero = () => {
       <div className="hero">
         <div className="overlap-group-2">
           {/* <img className="frame-4" alt="Frame" src="/public/img/frame-50.svg" /> */}
-          <img className="frame-4" alt="Frame" src="img/frame-50.svg" />
+          <img className="frame-4" alt="Frame" src="../public/img/frame-50.svg" />
           <div className="hero-content">
             <div className="frame-5">
               <div className="div-wrapper">
