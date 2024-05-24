@@ -77,7 +77,7 @@ const Hero = () => {
                 </div>
               </div>
               </div>
-            <img className="mask-group" alt="Mask group" src="../public/img/mask-group.png" />
+            <img className="mask-group" alt="Mask group" src="img/mask-group.png" />
           </div>
         </div>
       </div>
