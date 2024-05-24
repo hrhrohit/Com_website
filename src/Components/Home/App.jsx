@@ -14,7 +14,7 @@ import PropTypes from "prop-types";
 const Desktop = ({contactRef}) => {
   return (
     <div className="desktop">
-      <div className="div overflow-y-hidden">
+      <div className="div">
         {/* <Navbar contactRef={contactRef} /> */}
         <Hero />
         <TrustBanner />
