@@ -9,9 +9,9 @@ const Footer = () => {
             <img
               className="logo-final-working"
               alt="Logo final working"
-              src="Com_website/img/logo-final-working-file-01-1.png"
+              src="img/logo-final-working-file-01-1.png"
             />
-            <img className="group-2" alt="Group" src="Com_website/img/group-3.png" />
+            <img className="group-2" alt="Group" src="img/group-3.png" />
           </div>
           <div className="footer-logo-contact">
            

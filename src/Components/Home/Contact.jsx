@@ -22,7 +22,7 @@ const Contact = forwardRef((props, ref) => {
                   placeholder="Enter your name"
                   className="text-input text-wrapper-25"
                 />
-                <img className="line-2" alt="Line" src="Com_website/img/line-3.svg" />
+                <img className="line-2" alt="Line" src="img/line-3.svg" />
               </div>
             </div>
             <div className="frame-5">
@@ -36,7 +36,7 @@ const Contact = forwardRef((props, ref) => {
                   placeholder="Enter your email"
                   className="text-input text-wrapper-25"
                 />
-                <img className="line-3" alt="Line" src="Com_website/img/line-3-1.svg" />
+                <img className="line-3" alt="Line" src="img/line-3-1.svg" />
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Contact = forwardRef((props, ref) => {
                 placeholder="Enter your message"
                 className="text-input text-wrapper-25 message-input mb-[-21px]"
               />
-              <img className="line-4" alt="Line" src="Com_website/img/line-3-2.svg" />
+              <img className="line-4" alt="Line" src="img/line-3-2.svg" />
             </div>
           </div>
         </div>

@@ -45,15 +45,13 @@ const Hero = () => {
     animateValue(0, 15, 2000, setYears);
   }, [animateValue]);
 
-  const frame4Src = `${import.meta.env.BASE_URL}img/frame-50.svg`;
-  const maskGroupSrc = `${import.meta.env.BASE_URL}img/mask-group.png`;
 
   return (
     <>
       <div className="hero">
         <div className="overlap-group-2">
           {/* <img className="frame-4" alt="Frame" src="/public/img/frame-50.svg" /> */}
-          <img className="frame-4" alt="Frame" src="../public/img/frame-50.svg" />
+          <img className="frame-4" alt="Frame" src="img/frame-50.svg" />
           <div className="hero-content">
             <div className="frame-5">
               <div className="div-wrapper">
@@ -79,7 +77,7 @@ const Hero = () => {
                 </div>
               </div>
               </div>
-            <img className="mask-group" alt="Mask group" src={maskGroupSrc} />
+            <img className="mask-group" alt="Mask group" src="../public/img/mask-group.png" />
           </div>
         </div>
       </div>
